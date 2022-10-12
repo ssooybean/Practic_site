@@ -1,0 +1,295 @@
+body{
+    margin: 0;
+    font-family: Lora;
+    background-color: #E5942F;
+    color: black;
+}
+header{
+    background-color: white;
+    padding-bottom: 10px;
+    position: sticky;
+    top: 0;
+}
+.nav-link{
+    color: black;
+}
+.container, .head-row{
+    min-height: 100px;
+}
+.contacts{
+    margin: 0 -10px;
+}
+.con{
+    margin: 0 10px;
+}
+.logo-text{
+    text-align: center;
+    max-width: max-content;
+    margin: 0 10px;
+}
+.name-company{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+.dop-name-company{
+    margin-bottom: 0;
+}
+.logotype{
+    margin: 0 -10px;
+}
+.pic{
+    background: #E5942F no-repeat center url("pscheno.png");
+    background-size: cover;
+	width: 100%;
+    height: 915px;
+}
+.ramka{
+    border: 6px solid white;
+    text-align: center;
+    width: 700px;
+    height: 423px;
+    
+}
+.about, .about-s{
+    margin-top: 57px;
+}
+.company-info, .company-info-s{
+    background-color: white;
+    color: #575656;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.text-inf{
+    font-size: 25px;
+    padding: 40px;
+    padding-top: 0;
+}
+.case-head{
+    max-height: 120px;
+}
+.ysl{
+    margin-top: 75px;
+    text-align: center;
+}
+.ysl-line {
+    max-height: 100px;
+}
+.container2 img{
+    margin-bottom: 20px;
+}
+.container2 p{
+    font-size: 26px;
+    margin-bottom: 70px;
+}
+.container3 p{
+    font-size: 26px;
+}
+.container3{
+    margin-top: 10px;
+}
+.connection-img{
+    width: 500px;
+    height: 500px;
+}
+.footer{
+    position: sticky;
+    bottom: 0;
+}
+.container4{
+    background-color: white;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    color: #575656;
+}
+.container4 img{
+    max-width: 60px;
+    margin-right: 5px;
+}
+.sp-agro{
+    margin: 0px;
+}
+
+@media screen and (max-width: 1371px){
+    .connection-img{
+        width: 400px;
+        height: 400px;
+        padding-left: 10px;
+    }
+    .about-s{
+        font-size: 28px;
+        margin-top: 63px;
+    }
+    .company-info-s{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+
+}
+@media screen and (max-width: 1265px){
+    .name-company{
+        font-size: 25px;
+    }
+    .dop-name-company{
+        font-size: 15px;
+    }
+    .logo-img{
+        width: 50px;
+        margin-left: 30px;
+    }
+    .line{
+        display: none;  
+    }
+    .connection-img{
+        width: 350px;
+        height: 350px;
+        padding-left: 10px;
+    }
+    .container3 p{
+        font-size: 20px;
+    }
+    .about-s{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 992px){
+    .navigation{
+        max-width: max-content;
+    }
+    .name-company{
+        font-size: 25px;
+    }
+    .dop-name-company{
+        font-size: 15px;
+    }
+    .logo-img{
+        width: 50px;
+        margin-left: 30px;
+    }
+    .cen-con{
+        max-width: max-content;
+        padding: 0;
+        margin: 0 40px;
+    }
+    .header{
+        margin: 0 -40px;
+    }
+    .con{
+        max-width: max-content;
+    }
+    
+    .ramka{
+        border: 4px solid white;
+        text-align: center;
+        width: 70%;
+        height: 50%; 
+    }
+    .pic{
+        background: #E5942F no-repeat center url("Банер с пшеницей_tel.png");
+        background-size: cover;
+        width: 100%;
+        height: 540px;
+    }
+    .text-inf{
+        font-size: 20px;
+    }
+    .company-info{
+        margin-left: 150px;
+        margin-right: 150px;
+    }
+    .container2 col-sm{
+        margin-left: 15px;
+    }
+    .company-info-s{
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    
+}
+@media screen and (max-width: 768px){
+    .contacts{
+        display: none;
+    }
+    .navigation{
+        max-width: max-content;
+        order: 2;
+    }
+    .about, .about-s{
+        font-size: 30px;
+    }
+    .company-info{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .container2 p{
+        font-size: 23px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .ysl-line{
+        max-height: 50px;
+    }
+    .container2 img{
+        margin-bottom: 10px;
+    }
+    .container3 p{
+        padding: 15px;
+    }
+    .connection-img{
+        width: 390px;
+        height: 300px;
+        padding: 15px;
+    }
+    .container4{
+        font-size: 12px;
+        max-width: max-content;
+    }
+    .container4 img{
+        max-width: 30px;  
+    }
+    .container4 col-sm{
+        max-width: max-content;
+    }
+}
+@media screen and (max-width: 576px){
+    .contacts{
+        display: none;
+    }
+    .navigation{
+        max-width: max-content;
+        order: 2;
+    }
+    .header{
+        margin: 0 -220px;
+    }
+    .navigation{
+        margin: 0 220px;
+    }
+    .company-info{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .company-info-s{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .text-inf{
+        font-size: 20px;
+        padding: 9px 15px;
+    }
+    .about, .about-s{
+        margin-top: 20px;
+        font-size: 26px;
+    }
+    .container3 p{
+        padding: 15px;
+    }
+    .connection-img{
+        width: 250px;
+        height: 200px;
+        padding: 15px;
+    }
+}
